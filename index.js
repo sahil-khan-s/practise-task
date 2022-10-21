@@ -14,20 +14,17 @@ Array.from(boxes).forEach((box)=>{
        
     })
     
-
         //    code for checking the pin 
-
     function myFunction() {
       if(string.length == 4 && string=="1994"){
                         alert('Your password is correct')
                     } else if(string.length == 4  && string!=="1994"){
                      alert("Oops Wrong Password")
-                        } 
+                        } else if(string.length>4) {
+                            alert("you are not Allowed to enter More than 4 digit")
+                        }
       }
-    
-
     //   code for backspace
-
       function delete_num() {
         var input, num;
         input = document.getElementById('number_input');
