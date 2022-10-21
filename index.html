@@ -12,10 +12,10 @@
     <div class="pt-14 pb-10  w-full bg-blue-100">
 
                 <div class="flex justify-center pb-4 h-14 pr-5 ">
-                    <input id="number_input"  maxlength = "4" type="search" size="=4" id="myText" class="border-2  text-2xl text-red-700 bg-blue-200 border-gray-400 rounded-md  w-[350px]" type="text"  value="">
+                    <input placeholder="Enter Pin Code" id="number_input"  maxlength = "4" type="search" size="=4" id="myText" class="border-2 px-3 text-xl text-red-700 bg-blue-200 border-gray-400 rounded-md  w-[350px]" type="text"  value="">
                 </div>  
 
-        <div id="box-container" class=" container flex flex-wrap w-[492px] mx-auto rounded-md border pt-0 p-10">
+        <div id="box-container" class=" container flex flex-wrap w-[492px] mx-auto rounded-md border pt-0 pl-10 pb-5">
 
 
             <button   id='btn' value='1' class="rounded-tl-xl italic font-bold box-1 box
@@ -65,9 +65,9 @@
             </button>
         </div>
         <div class="flex justify-center gap-4">
-            <button onclick="myFunction() " class="px-7 py-2 bg-red-500 rounded-md ">click me</button>
+            <button onclick="myFunction() " class="px-8 py-2 bg-red-500 rounded-md ">Submit</button>
+            <button onclick="delete_num()"  class="px-7 py-2 bg-blue-500 rounded-md ">Back Space</button>
             <!-- <input onclick="delete_num()" value="<-- Del" id="erase"  class="py-2 px-4  bg-blue-500 rounded-md" type="button"> -->
-            <button onclick="delete_num()"  class="px-4 py-2 bg-blue-500 rounded-md ">Back Space</button>
 
         </div>
 

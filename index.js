@@ -7,7 +7,7 @@ Array.from(boxes).forEach((box)=>{
         
       
        if(string.length==4){
-           alert("You have reached ur limit")
+           alert("You Have Reached Your Limit")
        }
             console.log(string)
         })
@@ -17,11 +17,11 @@ Array.from(boxes).forEach((box)=>{
         //    code for checking the pin 
     function myFunction() {
       if(string.length == 4 && string=="1994"){
-                        alert('Your password is correct')
+                        alert('Your Password Is Correct')
                     } else if(string.length == 4  && string!=="1994"){
                      alert("Oops Wrong Password")
                         } else if(string.length>4) {
-                            alert("you are not Allowed to enter More than 4 digit")
+                            alert("You Are Not Allowed To Enter More Than 4 Digits")
                         }
       }
     //   code for backspace
@@ -34,6 +34,8 @@ Array.from(boxes).forEach((box)=>{
       }
 
 
+
+ 
 
 
 // var string ="";
